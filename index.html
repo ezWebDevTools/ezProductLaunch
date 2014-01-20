@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- [TODO] - change fave icon -->
+	<link rel="shortcut icon" href="ico/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="ico/favicon.ico" type="image/x-icon">
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- [TODO] - change meta -->
+	<title>ezProductLaunch - A single-page Bootstrap 3.0 micro-site template</title>
+	<meta name="description" content="A single-page Bootstrap 3.0 micro-site template for software engineers and web developers.">
+	<meta name="author" content="Mark Simchock for AlchemyUnited.com">
+	
+	<!-- [TODO] - change Open Graph meta -->
+	<meta property="og:title" content="ezProductLaunch - A single-page Bootstrap 3.0 micro-site template" />
+	<meta property="og:description" content="A single-page Bootstrap 3.0 micro-site template for software engineers and web developers." />
+	<meta property="og:type" content="website" />
+	<!-- [TODO] - add Google Analytics URL Builder tags to the og:url -->
+	<meta property="og:url" content="http://ezProductLaunch.com/" />
+	
+	<!-- [TODO] - add an Open Graph image -->
+	<!--
+	<meta property="og:image" content="http://TODO.com/" />
+	<meta property="og:image:secure_url" content="https://secure.example.com/ogp.jpg" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta property="og:image:width" content="400" />
+	<meta property="og:image:height" content="300" />
+	-->
+	
+	<!-- [TODO] - add an Open Graph video -->
+	<!--
+	<meta property="og:video" content="http://example.com/movie.swf" />
+	<meta property="og:video:secure_url" content="https://secure.example.com/movie.swf" />
+	<meta property="og:video:type" content="application/x-shockwave-flash" />
+	<meta property="og:video:width" content="400" />
+	<meta property="og:video:height" content="300" />
+	-->
+
+
+	<!-- Bootstrap core CSS: Latest compiled and minified CSS -->
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
+	
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
+
+	<!-- [TODO] - Headline / accent hosted web font.  -->
+	<!-- [TODO] - Also be sure to update ~line 8 in the CSS to use your font  -->
+	
+	<link href='http://fonts.googleapis.com/css?family=Days+One' rel='stylesheet' type='text/css'>
+	
+	
+	<!-- Custom styles for this template -->
+	<link href="css/ezproduct-launch.css" rel="stylesheet">
+	
+	<!-- css for jquery ui 
+	<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/ui-lightness/jquery-ui.min.css" rel="stylesheet"> 
+	-->
+	
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		<script src="http://cdn.jsdelivr.net/html5shiv/3.6.2/html5shiv.js"></script>
+		<script src="js/respond.min.js"></script>      
+	<![endif]-->
+
+</head>
+
+<body id="top">
+
+	<div data-spy="affix" class="header">
+		<div class="container">
+			<div class="col-lg-5">
+				<ul class="nav nav-pills pull-left">
+					<li class="dropdown">
+						<a id="drop4" role="button" data-toggle="dropdown" href="#" class="start-here">START HERE <b class="caret"></b></a>
+						<ul id="menu1" class="dropdown-menu" role="menu" aria-labelledby="drop4">
+						
+							<!-- [TODO] - Add / remove Start Here menu options / anchors -->
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="#overview"><i class="fa fa-flag fa-fw"></i> Overview</a></li>
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="#demo"><i class="fa fa-eye fa-fw"></i> Demo</a></li>
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="#how-to"><i class="fa fa-gears fa-fw"></i> How To</a></li>
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="#change-log"><i class="fa fa-code-fork fa-fw"></i> Change Log</a></li>
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="#faq"><i class="fa fa-question-circle fa-fw"></i> FAQ</a></li>
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="#license"><i class="fa fa-gavel fa-fw"></i> License</a></li>
+							
+								<li role="presentation" class="divider"></li>
+								<li role="presentation" class="divider"></li>
+								
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="#credits"><i class="fa fa-thumbs-o-up fa-fw"></i> Credits</a></li>
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="#testimonials"><i class="fa fa-heart fa-fw"></i> Testimonials</a></li>
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="#share"><i class="fa fa-gift fa-fw"></i> Share</a></li>
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="#additional-info"><i class="fa fa-info-circle fa-fw"></i> Additional Info</a></li>
+							
+								<li role="presentation" class="divider"></li>
+								<li role="presentation" class="divider"></li>
+						
+							<!-- [TODO] - Add / Remove Product's off-site links -->
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="http://TODO.com" target="_blank"><i class="fa fa-external-link-square fa-fw"></i> ProductWebsite.com</a></li>
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="http://TODO.com" target="_blank"><i class="fa fa-facebook-square fa-fw"></i> Facebook</a></li>
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="http://TODO.com" target="_blank"><i class="fa fa-github-square fa-fw"></i> GitHub.com</a></li>
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="http://TODO.com" target="_blank"><i class="fa fa-twitter-square fa-fw"></i> Twitter</a></li>
+							
+								<li role="presentation" class="divider"></li>
+								<li role="presentation" class="divider"></li>
+						
+							<!-- [TODO] - Add / Remove Product's off-site links -->
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="#top"><i class="fa fa-arrow-circle-up fa-fw"></i> Back to Top</a></li>
+											
+					  </ul>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="col-lg-7">
+				<ul class="nav nav-pills pull-right">
+					<li class="dropdown">
+					
+						<!-- [TODO] - Developer's Details -->	
+						<a id="drop4" role="button" data-toggle="dropdown" href="#">JQP <b class="caret"></b></a>
+						<ul id="menu2" class="dropdown-menu" role="menu" aria-labelledby="drop4">
+					  
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#" class="hover-pointer"><strong>Coded By:</strong><br>John Q. Public</a></li>
+						
+							<li role="presentation" class="divider"></li>
+							<li role="presentation" class="divider"></li>
+						
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="http://TODO.com" target="_blank"><i class="fa fa-external-link-square fa-fw"></i> JohnQPublic.com</a></li>
+						
+							<li role="presentation" class="divider"></li>
+							<li role="presentation" class="divider"></li>
+							
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="http://TODO.com" target="_blank"><i class="fa fa-facebook-square fa-fw"></i> Facebook</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="http://TODO.com" target="_blank"><i class="fa fa-github-square fa-fw"></i> GitHub</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="http://TODO.com" target="_blank"><i class="fa fa-google-plus-square fa-fw"></i> Google+</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="http://TODO.com" target="_blank"><i class="fa fa-instagram fa-fw"></i> Instagram</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="http://TODO.com" target="_blank"><i class="fa fa-linkedin-square fa-fw"></i> LinkedIn</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="http://TODO.com" target="_blank"><i class="fa fa-pinterest fa-fw"></i> Pinterest</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="http://TODO.com" target="_blank"><i class="fa fa-twitter-square fa-fw"></i> Twitter</a></li>
+						
+							<li role="presentation" class="divider"></li>
+							<li role="presentation" class="divider"></li>
+							
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="http://TODO.com"><i class="fa fa-envelope fa-fw"></i> Email Me</a></li>
+							
+					  </ul>
+					</li>
+					
+					<li class="dropdown">
+					
+						<!-- [TODO] - Developer's Employer's Details -->
+						<a id="drop5" role="button" data-toggle="dropdown" href="#">INC <b class="caret"></b></a>
+						<ul id="menu2" class="dropdown-menu" role="menu" aria-labelledby="drop5">
+						
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="#" class="hover-pointer"><strong>Where I work:</strong><br>INC Inc.</a></li>
+						
+								<li role="presentation" class="divider"></li>
+								<li role="presentation" class="divider"></li>
+							
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="http://TODO.com" target="_blank"><i class="fa fa-external-link-square fa-fw"></i> INCinc.com</a></li>
+						
+								<li role="presentation" class="divider"></li>
+								<li role="presentation" class="divider"></li>
+						
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="http://TODO.com" target="_blank"><i class="fa fa-facebook-square fa-fw"></i> Facebook</a></li>
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="http://TODO.com" target="_blank"><i class="fa fa-github-square fa-fw"></i> GitHub</a></li>
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="http://TODO.com" target="_blank"><i class="fa fa-linkedin-square fa-fw"></i> LinkedIn</a></li>
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="http://TODO.com" target="_blank"><i class="fa fa-twitter-square fa-fw"></i> Twitter</a></li>
+							
+								<li role="presentation" class="divider"></li>
+								<li role="presentation" class="divider"></li>
+						
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="http://eepurl.com/L4oR5" target="_blank"><i class="fa fa-envelope fa-fw"></i> INC Inc. Mailing List</a></li>
+
+					  </ul>
+					</li>
+					
+				</ul>
+			</div>
+		
+			<div class="clearfix text-muted"></div>
+
+	
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="jumbotron">
+			<div class="container">	
+		  
+			  
+				<h1>ezProductLaunch</h1>
+				<h3><i class="fa fa-star-o fa-fw"></i> Responsive single-page Bootstrap 3.0 theme <i class="fa fa-star-o fa-fw"></i></h3>
+				<p class="lead">
+					A boilerplate template crafted to be minimum viable packaging for your repo'ed product. A low-frills yet uber-thorough philosophy enables you to properly showcase 
+					all your product's attributes, broaden your brand, and make fork'ers forkin' happy.
+				</p>
+		
+			
+				<!-- [TODO] - Add / remove "slides" from the carousel -->
+				<div id="carousel-testimonials" class="carousel slide">
+					<div class="carousel-inner">
+						<div class="item active">
+							<!-- IMPORTANT: The small "faux" image (one-by-one.png) allows you to use the Bootstrap carousel as a simple text carousel. -->
+							<img src="img/one-by-one.png" alt="When tweeting please use #ezProductLaunch. ">
+							<div class="carousel-caption">
+								<p><i class="fa fa-quote-left fa-fw"></i> 
+									When tweeting please use #ezProductLaunch. 
+								<i class="fa fa-quote-right fa-fw"></i></p>
+							</div>
+						</div>
+						<div class="item">
+							<img src="img/one-by-one.png" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+							<div class="carousel-caption">
+							<p><i class="fa fa-quote-left fa-fw"></i> 
+								Lorem ipsum dolor sit, consectetur adipiscing elit.
+							<i class="fa fa-quote-right fa-fw"></i></p>
+
+							</div>
+						</div>
+					</div>	
+				</div>		
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="row ezpl-jumbotron-below">	
+		<div class="container">	
+		
+			<div class="col-lg-3">
+				<!-- Some other call to action? -->
+			</div>
+				
+			<div class="col-lg-6 text-center">
+					<!-- [TODO] - link to GitHub -->
+					<a class="btn btn-xl btn-black" href="http://TODO.com">
+						<i class="fa fa-github fa-fw"></i> Get Product X on GitHub
+					</a>
+			</div>
+				
+			<div class="col-lg-3">
+				<!-- Some other call to action? -->
+			</div>
+					
+			<div class="clearfix"></div>
+			<div id="overview"></div>
+		</div>
+	</div>
+	
+	
+	<div class="container">	
+	
+		<!-- ================== #OVERVIEW ================== -->	
+
+		<div class="row ezpl-row">
+			<div class="col-lg-12">
+			
+				<h2><i class="fa fa-flag fa-fw"></i> Overview</h2>
+				
+				<p class="lead">
+					Less thinking. More doing. You understand that quest, yes?
+				</p>
+				
+				<p>
+					The ultimate minimum viable packaging for your software product. A lean and clean design that more importantly is highly usable and reusable. A go-to power 
+					tool you can lean on when time is tight, details are scattered and marketing matters.
+				</p>
+				<p>				
+					<em>But wait, there's more!</em> 
+				</p>
+				<p>				
+					Specially crafted to serve double duty as an easy to follow checklist that pulls together most everything your product's packaging 
+					should include.
+				</p>
+				
+				<p>
+					You worked hard to build your product. Now tighten it up. Wrap a ribbon around it. Slap on this bow. Ship it.
+				</p>
+				
+				<p>				
+					<em>Fame awaits you.</em> 
+				</p>
+				
+				<!-- ================== What it doens't do ================== -->
+				<div class="col-lg-10 col-lg-offset-1 ezpl-margin-top-30">
+					<div class="well well-lg">
+						<h4><i class="fa fa-smile-o fa-fw"></i> Key Benefits &amp; Features:</h4>
+						
+							<ul>
+								<li><p>
+									<strong>Intentionally Lovely &amp; Minimal</strong><br>Easily trick it out to match your brand's identity.
+								</p></li>
+								
+								<li><p>
+									<strong>Consistent UX Across All Screen Sizes</strong><br>The IA and UI has been thoroughly distilled and optimized. 
+								</p></li>
+								
+								<li><p>
+									<strong>Using ezProductLaunch Makes You Smarter</strong><br>Follow the TODOs. Flesh out the Start Here sections. <em>Done!</em>
+								</p></li>
+								
+								<li><p>
+									<strong>It's Fast &amp; Lean</strong><br>Bootstrap 3.x (CSS and js), as well as Web Fonts and the jQuery library are all served via CDN.
+								</p></li>
+							</ul>
+				
+						
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				
+				<p class="lead text-center">
+					Saves time. Looks good. What's not to love?
+				</p>
+				<p>
+					Product intro continued...Pellentesque molestie vulputate dolor, ut vehicula elit volutpat nec. Nulla euismod bibendum nisi vitae 
+					iaculis. Curabitur convallis sem vitae massa pellentesque, elementum feugiat tellus tempor. Sed eu ullamcorper quam, a varius turpis.			
+				</p>
+				<p></p>
+				
+				<!-- ================== What it doens't do ================== -->
+				<div class="col-lg-10 col-lg-offset-1 ezpl-margin-top-30">
+					<div class="well well-lg">
+						<h4><i class="fa fa-warning"></i> What it doesn't do:</h4>
+						<ul>
+							<li>
+								<p><strong>Be Transparent</strong> - We're all too busy. Be kind to your coding brothers &amp; sisters and be clear about what <em>not</em> to expect. 
+								</p>
+								<p>
+									Pellentesque blandit ante nunc, in tincidunt augue porttitor imperdiet. Suspendisse pulvinar ultrices felis, ac luctus mauris tempor ac.
+								</p>
+							</li>
+							
+							<li>
+								<p><strong>Cras Blandit</strong> - Augue ac dictum porttitor, enim arcu ullamcorper sem, vitae interdum mi enim in neque. Proin nec 
+									nibh eget libero feugiat elementum non sed ipsum. Nam id nisl at lectus tristique tincidunt viverra et velit. Donec placerat sodales nibh, 
+									in suscipit nulla tempor vitae. Donec bibendum quam ipsum, et ultricies dui molestie non. Sed eu lobortis lectus, non bibendum lectus.
+								</p>
+								<p>
+									Pellentesque blandit ante nunc, in tincidunt augue porttitor imperdiet. Suspendisse pulvinar ultrices felis, ac luctus mauris tempor ac.
+								</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="clearfix"></div>
+				
+				<div id="demo"></div>			
+			</div> 	
+		</div>
+	
+	<!-- ================== #DEMO ================== -->	
+
+		<div class="row ezpl-row">
+			<div class="col-lg-12">
+			
+				<h2><i class="fa fa-eye"></i> Demo</h2>
+				
+				<p class="lead">
+					Pellentesque molestie vulputate dolor, ut vehicula elit volutpat nec. Nulla euismod bibendum nisi vitae iaculis. Curabitur convallis sem vitae 
+					massa pellentesque, elementum feugiat tellus tempor. Sed eu ullamcorper quam, a varius turpis.			
+				</p>
+				<p></p>
+			
+				<!-- [TODO] - Your demo here -->
+				<h3 class="lead text-center">
+					<a href="http://TODO.com" title="TODO">
+						Your demo here, or link to demo page(s). 
+					</a>
+				</h3>
+			
+				<p>
+					If you don't need a Demo then just comment out or remove the Demo section. 
+				</p>
+			
+				<div class="clearfix"></div>
+			
+				<div id="how-to"></div>			
+			</div> 
+		</div>
+	 
+	<!-- ================== #HOW-TO ================== -->	 
+	 
+		<div class="row ezpl-row">
+			<div class="col-lg-12">
+			
+				<h2><i class="fa fa-gears"></i> How To</h2>
+				
+				<p class="lead">
+					Vestibulum a nisi dapibus nibh lacinia aliquet in pellentesque augue. Nunc vel rhoncus felis.
+				</p>
+			
+				<p>
+					Donec ullamcorper eros a justo posuere ullamcorper. Aliquam tristique elit pulvinar, luctus libero sit amet, dictum lacus. 
+					Ut vitae velit nec purus blandit ultricies.
+				</p>
+			
+				<p>
+					Etiam a dolor ut nibh dapibus fermentum.
+				</p>
+				
+				<div class="col-lg-12 ezpl-margin-top-30">
+					<div class="well well-lg">
+					
+						<h4><i class="fa fa-code"></i> Code Snippet</h4>	
+						
+						<pre>
+<code class="html">&lt;script type="text/javascript"&gt;
+							$(document).ready(function() {	
+							&nbsp; $('#demo').ezJavascriptDemo({
+							&nbsp;&nbsp;&nbsp;	demoVarFoo : 'foo',
+							&nbsp;&nbsp;&nbsp;	demoVarBar : 'bar',
+							&nbsp; });	
+							});
+							&lt;/script&gt;</code></pre>
+					</div>
+				
+					<p class="lead"><i class="fa fa-gear"></i> Options : Defaults</p>
+					
+					<ul class="li-line-space-1em">
+						<li><strong>demoVarFoo : 'xyz'</strong> - Sed at aliquam leo. In in metus lectus. Pellentesque aliquet vitae quam ac euismod.</li>
+						
+						<li><strong>demoVarBar : 'pdq'</strong> - Vestibulum nulla elit, iaculis eget quam quis, volutpat ultricies tellus.</li> 
+					</ul>
+				</div>				
+			</div>
+		
+			<!-- ================== Support ================== -->
+			<div class="col-lg-10 col-lg-offset-1 ezpl-margin-top-30">
+				<div class="well well-lg">
+					<h4><i class="fa fa-wrench fa-fw"></i> Support</h4>
+						<p>
+							ezProductLaunch uses GitHub for support / issue tracking:
+						</p>
+						<p>
+						<a href="https://github.com/ezWebDevTools/ezProductLaunch/issues" target="_blank">https://github.com/ezWebDevTools/ezProductLaunch/issues <i class="fa fa-external-link-square fa-fw"></i></a>
+						</p>
+				</div>
+			</div>
+		
+			<div class="clearfix"></div>
+			<div id="change-log"></div>
+			
+		</div>
+	
+	<!-- ================== #CHANGE-LOG ================== -->
+	
+		<div class="row ezpl-row">
+			<div class="col-lg-12">
+		
+				<h2><i class="fa fa-code-fork"></i> Change Log</h2>
+			
+				<p class="lead">Section includes Known Bugs, Noteworthy TODOs, and Roadmap.</p>
+			
+				<ul>
+					<li><strong>v0.5.0 - 1 January 2014</strong>
+						<ul>
+							<li>Happy birthday ezProductLaunch!</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="col-lg-10 col-lg-offset-1 ezpl-margin-top-30">
+			
+				<!-- ================== Bugs ================== -->
+				<div class="well well-lg">
+					<h4><i class="fa fa-bug fa-fw"></i> Known Bugs</h4>
+					
+					<ul>
+						<li>v0.5.0 - No known bugs.</li>
+					</ul>
+				</div>
+			
+				<!-- ================== #TODOs ================== -->
+				<div class="well well-lg">	
+					<h4><i class="fa fa-list-ol fa-fw"></i> TODOs</h4>
+					
+					<ul>
+						<li>Do the TODOs identified in theme markup.</li>
+					</ul>
+				</div>
+				
+				<!-- ================== #Raodmap ================== -->
+				<div class="well well-lg">	
+					<h4><i class="fa fa-road fa-fw"></i> Roadmap</h4>
+					
+					<ul>
+						<li>The roadmap to somewhere.</li>
+					</ul>
+				</div>
+				
+			</div>
+			
+			<div class="clearfix"></div>
+			<div id="faq"></div>
+		</div>
+
+		
+		<!-- ================== #FAQ ================== -->
+		<div class="row ezpl-row">
+			<div class="col-lg-12">
+			
+				<h2><i class="fa fa-question-circle"></i> FAQ</h2>
+				
+				<p class="lead">Frequently Asked Questions.</p>
+			
+				<ol>
+					<li><p><strong>Vestibulum at mauris mi. Fusce tempor justo pellentesque massa sodales, non cursus nibh posuere?</strong></p>
+						<p>
+						Aenean non lorem consectetur, viverra arcu eget, pharetra elit. Morbi sit amet urna mi. Sed tincidunt neque vitae sapien volutpat, non auctor 
+						mauris vehicula. Proin ut neque vitae leo ullamcorper sodales. Fusce convallis risus scelerisque leo placerat, et semper dolor tempor. Maecenas ut 
+						accumsan ligula, eget lacinia erat. Donec fringilla ut nisl sed suscipit. Proin nec egestas ante, vel tristique leo. 
+						</p>
+					</li>
+					
+					<li><p><strong>Aenean non lorem consectetur, viverra arcu eget?</strong></p>
+						<p>
+						Vestibulum at mauris mi. Fusce tempor justo pellentesque massa sodales, non cursus nibh posuere. Aenean non lorem consectetur, viverra arcu eget, 
+						pharetra elit. Morbi sit amet urna mi. Sed tincidunt neque vitae sapien volutpat, non auctor tristique leo. 
+						</p>
+					</li>
+					
+					<li><p><strong>Sed tincidunt neque vitae sapien volutpat, non auctor?</strong></p>
+						<p>
+						Fusce convallis risus scelerisque leo placerat, et semper dolor tempor. Maecenas ut accumsan ligula, eget lacinia erat. Donec fringilla ut nisl sed suscipit. 
+						Proin nec egestas ante, vel tristique leo. 
+						</p>
+					</li>
+					
+				</ol>
+			
+			</div>
+			
+			<div class="clearfix"></div>
+			<div id="license"></div>
+		</div>
+	
+	
+		<!-- ================== #LICENSE ================== -->
+	
+		<!-- ===== http://opensource.org/ ===== -->
+
+		<div class="row ezpl-row">
+			<div class="col-lg-12">
+			
+				<h2><i class="fa fa-gavel"></i> License</h2>
+				
+				<p class="lead">Copyright (c) 2014 Alchemy United</p>
+			
+				<p>Pellentesque Blandit Ante</p>
+
+				<p>
+					Morbi elementum blandit massa sed aliquet. Donec tellus neque, placerat quis lacinia eget, suscipit eu velit. Donec dictum nunc ipsum, nec rhoncus erat 
+					fringilla sed. Mauris magna diam, sagittis sit amet purus at, sodales dignissim erat.
+				</p>
+
+				<p>
+					Fusce placerat adipiscing eros sit amet pharetra. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec ullamcorper eros a justo posuere ullamcorper. 
+					Aliquam tristique elit pulvinar, luctus libero sit amet, dictum lacus. Ut vitae velit nec purus blandit ultricies.
+				</p>
+
+				<p>
+					THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+					IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+					FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+					AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+					LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+					OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+					THE SOFTWARE.
+				</p>
+				
+				<div class="col-lg-10 col-lg-offset-1 ezpl-margin-top-30">
+					<!-- ================== License: Important ================== -->
+					<div class="well well-lg">
+					
+						<h4><i class="fa fa-warning"></i> Important</h4>
+						
+						<ul>
+							<li>
+								<p>
+								We kindly and politely ask that you change the font for the headline tags. Currently, it's the Google Fonts' Days One. Obviously, we have no
+								legal leverage. 
+								</p>
+								<p>However, it is the font we're using for the ezProducts familty / brand. Therefore, in order for us to be differentiated from you, and you from us, 
+								we ask you take a moment and use a different headline font.
+								</p>
+								<p><em>Thank you for your cooperation.</em></p>
+							</li>
+							
+						</ul>
+					</div>
+				</div>				
+			</div>
+
+			<div class="clearfix"></div>
+			<div id="credits"></div>
+		</div>
+
+   	
+		<!-- ================== #CREDITS ================== -->
+		<div class="row ezpl-row">		
+			<div class="col-lg-12">
+			
+				<h2><i class="fa fa-thumbs-o-up"></i> Credits</h2>
+				
+				<p class="lead">Giving credit and love where due.</p>
+			
+				<ul>
+					<li>Thanks Bootstrap 3 (<a href="http://GetBootstrap.com/" target="_blank">http://GetBootstrap.com <i class="fa fa-external-link-square"></i></a>).</li>
+					
+					<li>Thanks Font Awesome (<a href="http://FontAwesome.io/" target="_blank">http://FontAwesome.io <i class="fa fa-external-link-square"></i></a>).</li>
+				</ul>
+			
+			</div>
+			
+			<div class="clearfix"></div>
+			<div id="testimonials"></div>
+		</div>
+
+	
+		<!-- ================== #TESTIMONIALS ================== -->
+		<div class="row ezpl-row">
+			<div class="col-lg-12">
+			
+				<h2><i class="fa fa-heart"></i> Testimonials</h2>
+			
+				<p class="lead">These people have spoken.</p>
+			
+				<div class="col-lg-10 col-lg-offset-1">
+				<!-- ================== Quote ================== -->
+					<div class="well well-lg">
+						<p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						Nullam sed elit at augue suscipit lacinia. Phasellus ultrices placerat pellentesque. 
+						Aenean ornare, sapien in tristique sollicitudin, massa lacus auctor dolor, et venenatis purus nisl et dui. <i class="fa fa-quote-right"></i></p>
+						<p class="col-lg-offset-6">&mdash; Laoreet Accumsan</p>
+						<div class="clearfix"></div>
+						
+					</div>
+				</div>
+			
+				<div class="col-lg-10 col-lg-offset-1">
+				<!-- ================== Quote ================== -->
+					<div class="well well-lg">
+						<p>
+							<i class="fa fa-quote-left"></i> 
+							 Pellentesque blandit ante nunc, in tincidunt augue porttitor imperdiet. 
+							Suspendisse pulvinar ultrices felis, ac luctus mauris tempor ac. 
+							<i class="fa fa-quote-right"></i>
+						</p>
+						
+						<p class="col-lg-offset-6">&mdash; Sodales Dignissim</p>
+						<div class="clearfix"></div>
+					
+					</div>
+				</div>
+			</div>
+			
+			<div class="clearfix"></div>
+			<div id="share"></div>
+		</div>
+	
+	
+		<!-- ================== #Share ================== -->
+		<div class="row ezpl-row">
+			<div class="col-lg-12">
+			
+				<h2><i class="fa fa-gift"></i> Share</h2>
+			
+				<p class="lead">Be a good sport and show the world your love for this product.</p>
+			
+				<div class="text-center">
+					<h1>
+					<a href="http://twitter.com/share?url=TODO_URL&amp;text=TODO_TITLE" target="_blank"><i class="fa fa-twitter-square"></i></a>
+					
+					<a href="http://www.facebook.com/sharer.php?u=TODO_URL&amp;t=TODO_TITLE" target="_blank"><i class="fa fa-facebook-square"></i></a>
+					
+					<a href="https://plusone.google.com/_/+1/confirm?hl=en&amp;url=TODO_URL&amp;title=TODO_TITLE" target="_blank"><i class="fa fa-google-plus-square"></i></a>
+					
+					<a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=TO_URL&amp;title=TODO_TITLE&amp;summary=TODO_EXCERPT" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+					
+					<a href="http://pinterest.com/pin/create/button/?url=TODO_URL&media=TODO_IMAGE" target="_blank"><i class="fa fa-pinterest-square"></i></a>
+					</h1>
+				</div>
+
+			</div>
+			
+			<div class="clearfix"></div>
+			<div id="additional-info"></div>
+		</div>
+	
+	
+		<!-- ================== #ADDITIONAL INFO ================== -->
+		<div class="row ezpl-row">
+			<div class="col-lg-12">
+			
+				<h2><i class="fa fa-info-circle"></i> Additional Info</h2>
+				
+				<p class="lead">Also known as: None of the Above.</p>
+				
+					<ul>
+						<li>When tweeting please use: #ezProductLaunch.</li>
+						
+						<li>You might also be interested in the Bootstrap prototyping tool Pingendo (<a href="http://TODO.com" target="_blank">http://www.pingendo.com <i class="fa fa-external-link-square"></i></a>)</li>
+					</ul>	
+			</div>
+		</div>
+	
+
+		<!-- ================== #Call to GitHub Action ================== -->
+		<div class="row ezpl-row-button">
+			<div class="col-lg-12 text-center">
+			
+				<a class="btn btn-lg btn-black" href="http://TODO.com">
+					<i class="fa fa-github"></i> Get Product X on GitHub
+				</a>
+
+			</div>
+		</div>	
+	
+	</div> <!-- /container -->
+	
+	
+	<!-- ================== #FOOTER ================== -->
+	<div class="footer">
+		<div class="container">
+			<div class="row ezpl-row ezpl-footer">
+				<div class="col-lg-12">
+					<a href="http://TODO.com" target="_blank" class="pull-left" title="TODO - Link to INC Inc. website">&copy; INC Inc. 2013 <i class="fa fa-external-link-square"></i></a>
+					<a href="http://autd.co/OrOj4" target="_blank" title="ezWebDevTools on Facebook" class="pull-right">ezWebDevTools <i class="fa fa-external-link-square"></i></a>
+				</div>
+			
+				<div class="clearfix"></div>
+		
+				<div id="ez-logo" class="col-lg-12">
+				
+					<!-- [TODO] - Your logo here -->
+					<div  id="ez-logo-wrap">
+						<div id="ez-logo-background-circle">
+						</div>
+						
+						<div id="ez-logo-img">
+							<a href="http://ezWebDevTools.com" target="_blank" title="ezWebDevTools.com"><img src="img/ez-logo.png" alt="ezWebDevTools.com"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+				
+			<!-- ================== #Back to Top ================== -->
+			<div class="row ezpl-footer text-center">
+				<a href="#top" class="ezpl-back-to-top" title="Back to Top"><i class="fa fa-arrow-circle-up"></i></a>
+			</div>
+		
+			<!-- ================== #Call to Mailing List Action ================== -->
+			<div class="row ezpl-footer-button">
+				<div class="col-lg-12 text-center">
+			
+					<a class="btn btn-lg btn-black" href="http://eepurl.com/L4oR5" target="_blank">
+						<i class="fa fa-envelope"></i> Sign up for the INC Inc. Mailing List
+					</a>
+
+				</div>
+			</div>	
+		</div>
+	</div>
+	
+	<!-- ================== THE SCRIPTS AND SUCH ================== -->
+	
+	<!-- ================== JQuery via CDN ================== -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	
+	<!-- jquery ui
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+	-->
+
+	<!-- ================== For: the Bootstrap stuff within this demo ================== -->
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('.carousel').carousel({
+				interval: 9000
+			});	
+			
+		});
+		
+	</script>
+		
+</body>
+</html>
