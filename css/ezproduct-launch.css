@@ -54,7 +54,7 @@ a:hover{
 }
 					
 .well h4 {
-	margin-top:0
+	margin-top:0;
 	font-weight:700
 }
 
@@ -166,7 +166,7 @@ a:hover{
 
 .btn-black{
 	background-color:#000;
-	border-color:E5E5E5;
+	border-color:#E5E5E5;
 	color:#FFF
 }
 
